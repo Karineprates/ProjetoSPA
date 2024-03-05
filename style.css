@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  --color-nav: #C4C4CC;
+  --color-nav-white: #FFF;
+  --color-h1:#E1E1E6;
+  font-size: clamp(40%,1% + 2vw, 62.5%);
+
+}
+
+
+
+.home{
+  background-image: url(./assets/mountains-universe-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+
+}
+.universo {
+  background-image: url(./assets/mountains-universe02.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.exploracao {
+  background-image: url(./assets/mountains-universe-3.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 4.0rem 7.2rem 4.0rem 7.2rem;
+}
+
+#vector {
+  margin-right: 3.2rem;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 3.2rem;
+}
+
+ul a {
+  font-size: 2.1rem;
+  text-decoration: none;
+  color: var(--color-nav);
+
+  
+}
+
+a:hover {
+  color: var(--color-nav-white);
+  font-weight: bold;
+}
+
+
+section h1 {
+color: var(--color-h1);
+font-size: 4.8rem;
+font-weight: 700;
+
+}
+
+section p {
+color: var(--color-h1);
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 300;
+max-width: 64.8rem;
+margin-top: 1.6rem;
+line-height: 160%;
+}
+
+
+#second {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10.0rem;
+  background-image: url(./assets/mountains-universe02.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#three {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10.0rem;
+  background-image: url(./assets/mountains-universe-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+main{
+  display: grid;
+  height: 100vh;
+  place-content: center;
+  margin-top: -12rem;
+}
+
+
+button {
+  margin-top: 2.4rem;
+  background: none;
+  padding: 1.2rem 3.2rem;
+  color: #FFF;
+  border-radius: 5px;
+  border: 2px solid #FFF;
+  margin-left: 10.0rem;
+  cursor:pointer
+}
